@@ -1,0 +1,39 @@
+
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0deg) scale(1);
+        }
+    100%{
+        transform: rotate(360deg) scale(1);
+        }
+}
+
+.elementToAnimate{
+    animation: yourAnimation 1s forwards 0s ease;
+}
+
+#message{
+    width: 200px;
+    height: 30px;
+    background-color: cornsilk;
+    color: black;
+    border: none;
+    border-radius: 10px;
+
+}
+body{
+    background-color: rgb(122, 207, 122);
+}
+#subutton{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 20px;
+}
+#sendimg{
+    width: 20px;
+    height: 20px;
+    margin-left: 1.6px;
+
+}
+#sendimg:hover{animation: yourAnimation 1s forwards 0s ease;}
