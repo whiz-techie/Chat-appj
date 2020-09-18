@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+<body>
+
+<form >
+    <input id="message" placeholder="enter message" autocomplete="off">
+
+    <input type="Submit" onclick="sendMessage(event)">
+</form>
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+ 
+<!-- include firebase database -->
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+ 
+<script src="app.js"></script>
+
+<ul id="messages"></ul>
+
+</body>
+</html>
